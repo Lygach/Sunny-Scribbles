@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Album</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="stylesheet" href="assets/styles/features.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+    <nav class="navigation">
+        <a class="navigation__logo" href="index.html">
+            menu 
+        </a>
+        <ul class="navigation__items">
+            <li>
+                <a
+                        class="navigation__item"
+                        href="index.html"
+                >
+                    Home
+                </a>
+            </li>
+            <li>
+                <a
+                        class="navigation__item navigation__item_active"
+                        href="album.html"
+                >
+                    Album
+                </a>
+            </li>
+            
+            <li>
+                <a
+                        class="navigation__item"
+                        href="order.html"
+                >
+                    Order
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div class="black">
+        <section class="hero-section">
+            <div class="hero-image-container">
+                <img id="loh" src="assets/images/3.jpg" alt="cd">
+                <div class="hero-text">Track List</div>
+            </div>
+        </section>
+        
+        <section class="album-tracks">
+            <h2 class="album-tracks__heading">Track List</h2>
+            <ul>
+                <li class="album-tracks__item">Track 1: Sunny Scribbles</li>
+                <li class="album-tracks__item">Track 2: Childhood Dreams</li>
+                <li class="album-tracks__item">Track 3: Playful Memories</li>
+                <li class="album-tracks__item">Track 4: Nostalgic Nights</li>
+                <li class="album-tracks__item">Track 5: Innocent Days</li>
+            </ul>
+        </section>
+    </div>
+    <section class="music-player">
+        <h2 class="music-player__heading">Preview Tracks</h2>
+        <audio id="track1" src="track1.mp3" controls></audio>
+        <audio id="track2" src="track2.mp3" controls></audio>
+        <audio id="track3" src="track3.mp3" controls></audio>
+        <audio id="track4" src="track4.mp3" controls></audio>
+        <audio id="track5" src="track5.mp3" controls></audio>
+    </section>
+</main>
+<footer class="footer">
+    <p>Created by Xenia Lygach</p>
+    <p>© 2024</p>
+</footer>
+</body>
+</html>
